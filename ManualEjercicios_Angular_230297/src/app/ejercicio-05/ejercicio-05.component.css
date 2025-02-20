@@ -1,0 +1,28 @@
+  /* Estilo para los párrafos */
+  p {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+}
+
+/* Estilo para los nombres de los sistemas operativos */
+.os-name {
+    background-color: #feb3ec;
+    color: #a230fa;
+    border-left: 5px solid #ed4bf3;
+}
+
+/* Estilo para los nombres de los usuarios */
+.user-name {
+    background-color: #f0f8ff;
+    color: #333;
+    border-left: 5px solid #007bff;
+}
+
+/* Estilo para la línea separadora */
+hr {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+}

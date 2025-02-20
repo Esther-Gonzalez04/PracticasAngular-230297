@@ -1,0 +1,17 @@
+p
+{
+ font-size: 24px;
+ color: blueviolet;
+}
+
+.textoResaltado{
+    font-family: Arial, Helvetica, sans-serif;
+    color: indigo;
+}
+
+.contenedor{
+    padding: 20px;
+    margin: 100px;
+    background-color: rgb(168, 195, 223);
+    border-radius: 25px;
+}

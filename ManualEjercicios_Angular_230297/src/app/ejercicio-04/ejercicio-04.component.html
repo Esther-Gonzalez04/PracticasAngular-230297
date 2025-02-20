@@ -1,0 +1,13 @@
+<div class="message">
+    @if(isServerRunning) {
+        @if(isLoggedIn) {
+            <p class="welcome">Welcome back, Friend</p>
+        }
+        @else {
+            <p class="login-prompt">You must log in</p>
+        }
+    }
+    @else {
+        <p class="offline">The website is offline</p>
+    }
+</div>
