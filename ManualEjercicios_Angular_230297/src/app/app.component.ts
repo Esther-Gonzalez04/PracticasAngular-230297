@@ -8,11 +8,17 @@ import { Ejercicio05Component } from "./ejercicio-05/ejercicio-05.component";
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatTooltipModule } from '@angular/material/tooltip';
+import { BreadconmbsComponent } from './components/breadconmbs/breadconmbs.component';
+import { ContentComponent } from './components/content/content.component';
+import { FooterContentComponent } from './components/footer-content/footer-content.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { PageContentComponent } from './components/page-content/page-content.component';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, Ejercicio01Component, Ejercicio02Component, Ejercicio03Component, Ejercicio04Component, Ejercicio05Component, MatButtonModule, MatIconModule, MatTooltipModule],
+  imports: [RouterOutlet, Ejercicio01Component, Ejercicio02Component, Ejercicio03Component, Ejercicio04Component, Ejercicio05Component, MatButtonModule, MatIconModule, MatTooltipModule, BreadconmbsComponent, ContentComponent, FooterContentComponent,NavbarComponent,PageContentComponent,SidebarComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
